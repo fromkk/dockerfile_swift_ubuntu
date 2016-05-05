@@ -3,7 +3,7 @@ MAINTAINER Kazuya Ueoka <info@fromkk.info>
 
 #initial settings
 RUN apt-get update && \
-    apt-get install -y build-essential wget clang libedit-dev python2.7 python2.7-dev libxml2 git curl make  mariadb-server mariadb-client libmysqlclient-dev
+    apt-get install -y build-essential wget clang libedit-dev python2.7 python2.7-dev libxml2 git curl make mariadb-server-10.0 libmysqlclient-dev
 
 RUN wget -q -O - https://swift.org/keys/all-keys.asc | gpg --import - && \
     gpg --keyserver hkp://pool.sks-keyservers.net --refresh-keys Swift
