@@ -5,6 +5,6 @@
 ```
 git clone git@github.com:fromkk/dockerfile_swift_ubuntu.git
 cd ./dockerfile_swift_ubuntu
-docker build .
+docker build -t ubuntu:ubuntu_swift .
 docker run -it --privileged ubuntu:ubuntu_swift /bin/bash
 ```
