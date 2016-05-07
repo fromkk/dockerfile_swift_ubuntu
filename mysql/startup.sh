@@ -1,3 +1,3 @@
 #!/bin/bash
 service mysql start
-mysqladmin -u root password 'k0a2z2u0'
+mysqladmin -u root password 'password'
